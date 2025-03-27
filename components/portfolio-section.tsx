@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const projects = [
@@ -38,22 +39,22 @@ export function PortfolioSection() {
             >
               <CardHeader className="p-0">
                 <div className="aspect-video w-full overflow-hidden">
-                  <img
+                  <Image
                     src={project.image || "/placeholder.svg"}
                     alt={project.title}
-                    className="h-full w-full object-cover"
+                    layout="responsive"
+                    width={500}
+                    height={300}
+                    objectFit="cover"
                   />
                 </div>
               </CardHeader>
               <CardContent className="p-4">
                 <CardTitle className="mb-2 text-lg">{project.title}</CardTitle>
                 <CardDescription>{project.description}</CardDescription>
-                {/* Tecnologías alineadas a la izquierda */}
                 <p className="mt-2 text-sm font-semibold text-gray-700">
-                  Tecnologías:{" "}
-                  <span className="text-gray-500">{project.technologies.join(", ")}</span>
+                  Tecnologías: <span className="text-gray-500">{project.technologies.join(", ")}</span>
                 </p>
-                {/* Botón centrado */}
                 <div className="flex justify-center mt-4">
                   <Link href={project.link} target="_blank" rel="noopener noreferrer">
                     <button className="bg-secondary text-white py-2 px-4 rounded-lg transition duration-300 hover:bg-opacity-80">

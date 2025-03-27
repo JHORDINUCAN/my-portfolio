@@ -1,5 +1,3 @@
-import { Button } from "@/components/ui/button";
-
 export function HeroSection() {
   return (
     <section className="relative min-h-screen bg-[#B8C6E5] pt-16">
@@ -10,10 +8,10 @@ export function HeroSection() {
             <h2 className="mt-2 text-3xl font-semibold text-secondary sm:text-4xl">Jhordin Alexander Ucan Can</h2>
             <p className="mt-2 text-xl text-secondary/80">Ing. en Software</p>
             <p className="mt-6 text-secondary/80">
-            "Soy un desarrollador de software con un enfoque en la innovación y la evolución constante de la tecnología. 
-            Me interesa tanto el desarrollo web como el diseño, combinando funcionalidad y estética para crear soluciones eficientes. 
-            Tengo experiencia trabajando con tecnologías como Java, JavaScript, HTML, CSS, SQL y React, además de desarrollar 
-            aplicaciones backend con Node.js y Express, priorizando escalabilidad y rendimiento."
+              &quot;Soy un desarrollador de software con un enfoque en la innovación y la evolución constante de la tecnología.
+              Me interesa tanto el desarrollo web como el diseño, combinando funcionalidad y estética para crear soluciones eficientes.
+              Tengo experiencia trabajando con tecnologías como Java, JavaScript, HTML, CSS, SQL y React, además de desarrollar
+              aplicaciones backend con Node.js y Express, priorizando escalabilidad y rendimiento.&quot;
             </p>
           </div>
           <div className="flex justify-center lg:justify-end">
