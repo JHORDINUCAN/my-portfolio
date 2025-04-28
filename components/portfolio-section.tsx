@@ -29,7 +29,7 @@ const projects = [
     description: "Plataforma Ecommerce para la venta de productos de imprenta y diseño gráfico. Proyecto desarrollado con mi equipo de trabajo en D3P (Divine Design Print).",
     technologies: ["React", "Node.js", "Express", "MySQL"],
     image: "/d3p.jpg",
-    link: "https://d3p-divine-design-print.sweet-travelcancun.com/",
+    link: "https://github.com/JHORDINUCAN/d3p-backend",
   },
 ];
 
