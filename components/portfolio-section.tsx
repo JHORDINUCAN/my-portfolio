@@ -24,6 +24,13 @@ const projects = [
     image: "/HolyTravel.png",
     link: "https://www.figma.com/proto/Wr1BW1Sykn2rrW2YA0fnXj/Holy-Travel?node-id=864-4037&t=YqG3mw8P7nco31CS-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=102%3A2",
   },
+  {
+    title: "Divine Design Print", 
+    description: "Plataforma Ecommerce para la venta de productos de imprenta y diseño gráfico. Proyecto desarrollado con mi equipo de trabajo en D3P (Divine Design Print).",
+    technologies: ["React", "Node.js", "Express", "MySQL"],
+    image: "/d3p.jpg",
+    link: "https://d3p-divine-design-print.sweet-travelcancun.com/",
+  },
 ];
 
 export function PortfolioSection() {
